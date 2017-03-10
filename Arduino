@@ -67,7 +67,6 @@ void loop() {
   }
 
   if ( millis() - lastSend > 100 ) { // Update and send only after 1 seconds
-    //    getAndSendTemperatureAndHumidityData();
     for (int linha = 8; linha <= 11; linha++)
     {
       //Alterna o estado dos pinos das linhas
